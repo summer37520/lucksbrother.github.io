@@ -285,6 +285,163 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://lucksbrother.github.io/2018/04/22/一起学设计模式/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Robin">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Luck's Brother">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/22/一起学设计模式/" itemprop="url">
+                  一起学设计模式
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-04-22 11:50:08" itemprop="dateCreated datePublished" datetime="2018-04-22T11:50:08+08:00">2018-04-22</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-04-23 05:03:13" itemprop="dateModified" datetime="2018-04-23T05:03:13+08:00">2018-04-23</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="聊"><a href="#聊" class="headerlink" title="聊"></a>聊</h2><p>&emsp;&emsp;这是我写的第一篇技术类专题《一起学设计模式》，因为没什么写作经验，在用什么样的方式来写文章纠结了一上午，也搜了很多如何写好一篇技术文章之类的教程，最终还是没有领悟（这里应该有个尴尬的表情），我打算用专题加章节分离的方式来记录我的学习历程，并且为博客增加了评论和聊天室功能（聪明的你一定能自己找到位置），希望能从和大家一起交流、共同进步。</p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p><em>引自《Head First 设计模式》</em></p>
+<p>1、引子</p>
+<p>什么是设计模式</p>
+<p>2、<a href="/2018/04/22/一起学策略模式/">策略模式</a>.</p>
+<p>3、观察者模式</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lucksbrother.github.io/2018/04/22/一起学策略模式/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -335,6 +492,22 @@
             
 
             
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-04-23 05:00:14" itemprop="dateModified" datetime="2018-04-23T05:00:14+08:00">2018-04-23</time>
+              
+            
           </span>
 
           
@@ -367,7 +540,41 @@
       
         
           
-            
+            <h2 id="聊"><a href="#聊" class="headerlink" title="聊"></a>聊</h2><blockquote>
+<p>最近一直在繁忙的工作中，博客在上周搞好之后一直没有更新，但是学习的步伐没有停滞，如果说我一开始干开发的动力来源于提升生活质量，进入开发后持续学习的动力就来自于兴趣，那现在分享、交流就是驱动我进步的又一个动力，如果你评论栏里留言我觉得就像给一个奔驰的火车又添加燃料。鉴于时间的分配，我觉得一周更新一次比较恰当。这是第一篇学习的记录《设计模式》之策略模式，分享给大家。</p>
+</blockquote>
+<h2 id="记"><a href="#记" class="headerlink" title="记"></a>记</h2><p>先看一个场景：一个鸭子的游戏，说游戏中会出现各种鸭子，一边游泳戏水，一边呱呱叫，用面向对象的技术设计了一个鸭子的父类。</p>
+<p><img src="/uploads/post/duck1.png" alt="鸭子一"></p>
+<p>所有的鸭子只负责实现自己的display() 方法。在一次股东会议上主管认为该是创新的时候了，并决定需要用会飞的鸭子将竞争者抛在后头，程序员拍胸脯说一个周就可以搞定，于是在父类上给鸭子增加了fly()方法。</p>
+<p><img src="/uploads/post/duck2.png" alt="鸭子二"></p>
+<p>但是可怕的事情发生了，主管在演示时，屏幕上出现了一只“橡皮鸭子”飞来飞去，问程序员，你是在开玩笑吗？你可能要开始去逛智联招聘了。</p>
+<p><em>&emsp;&emsp;书中的一个小故事，我觉得这本书不错，用模拟生活中的案例的方式比较能让我更直观的了解到方法的应用。并且小故事很有意思，会帮助人的大脑加深记忆。我还看过一本《程序员内外兼修》的书，里面介绍了许多学习的方法，有时间和大家一起分享。</em></p>
+<p>程序员开始想办法解决这个事情，第一时间想到了继承的重写方法。可是，如果以后要加入木头鸭该怎么办，木头鸭子不会飞也不会叫。</p>
+<p><img src="/uploads/post/duck3.png" alt="鸭子三"></p>
+<p>程序员认识到继承可能不是答案，主管希望以后每六个月更新产品，至于更新的方法，他们还没想到，这样每当有新的鸭子子类出现，他就要被迫检查并可能需要覆盖所有的fly和quack方法。</p>
+<p>程序员想到用接口的方式实现，将fly()从超类中取出来，放进一个“Flyable接口”中。这样只有会飞的鸭子继承此接口，同样的方式也可以制作一个“Quackable接口”。</p>
+<p><img src="/uploads/post/duck4.png" alt="鸭子四"></p>
+<p>你觉得这个设计如何？（先想一想）</p>
+<p>:这样虽然能让橡皮鸭不会飞，但是却增加了更多的重复代码，飞行的动作可能还会有多种变化，所以这不是最终的答案，其中书中还讲了好多反例及原因，这里就不一一举例了。下面将利用真正的设计方法和原则来改造这个鸭子游戏。</p>
+<hr>
+<ul>
+<li><strong>设计原则：独立出应用中可能需要变化部分，不要和那些不需要变化的代码混在一起。</strong></li>
+<li><strong>设计原则：针对接口编程，而不是针对实现编程</strong></li>
+<li><strong>设计原则：多用组合，少用继承</strong></li>
+</ul>
+<p>第一步：将鸭子的行为从父类中提取出，并放在分开的类中，此类专门提供某行为的接口实现，这样鸭子类就不需要知道行为的实现细节。分别是FlyBehavior接口表示飞行行为，QuackBehavior接口表示叫行为。并且分别实现一组行为方法。</p>
+<p><img src="/uploads/post/duck5.png" alt="鸭子五"></p>
+<p>第二步：将鸭子飞行和叫的动作委托给FlyBehavior和QuackBehavior处理，而不是把实现类定义在Duck类或子类中。在Duck类中加入两个实例变量分别是“flyBehavior”与“quackBehavior”，声明为接口类型而不是实现，运行时引用正确的行为。将用performFly和performQuack取代原来的fly和quack方法。</p>
+<p><img src="/uploads/post/duck6.png" alt="鸭子六"></p>
+<p>第三步：实现第一支鸭子,文章大多使用UML图例其他接口及抽象类可按照UML实现。我已经将代码公布到GitHub中，可以参照或指点。[<a href="https://github.com/lucksbrother/studyDesignPattern]" target="_blank" rel="noopener">https://github.com/lucksbrother/studyDesignPattern]</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">public class MallardDuck extends Duck &#123;</span><br><span class="line"></span><br><span class="line">    public MallardDuck() &#123;</span><br><span class="line">        flyBehavior = new FlyWithWings();</span><br><span class="line">        quackBehavior = new Quack();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void display() &#123;</span><br><span class="line">        System.out.println(&quot;我是绿头鸭&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>测试：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">public class TestMain &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Duck mallard = new MallardDuck();</span><br><span class="line">        mallard.display();</span><br><span class="line">        mallard.performQuack();</span><br><span class="line">        mallard.performFly();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>至此策略模式已初步应用到鸭子游戏中。在文中有一处并未完全实现设计原理的针对接口编程，在后续的学习中会有其他设计模式修正这一点。</p>
+<h2 id="补"><a href="#补" class="headerlink" title="补"></a>补</h2><blockquote>
+<p>夜深了，下一次补一个策略模式概念在这里。</p>
+</blockquote>
+
           
         
       
@@ -711,7 +918,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -719,6 +926,21 @@
 
               
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
               
             </nav>
           
